@@ -1,0 +1,78 @@
+html{height:100%;}
+body {
+  height: 100%;
+  font-family: 'Ubuntu', Verdana, Helvetica, sans-serif;
+  background-color: #F9F9F9;
+  overflow:hidden;
+  font-size: 13px;  
+}
+#content{
+  height: 80%;
+  z-index:10; 
+}
+input[type="text"], input[type="password"], input.text, input.title, textarea, select {margin-top:10px;}
+.chromed {
+  border: 1px solid rgba(153,153,153,0.4);
+  background: -webkit-gradient(linear,left top,left bottom,from(rgba(204, 204, 204, 0.4)),to(rgba(153,153,153,0.4)));
+  background: -moz-linear-gradient(top,rgba(204, 204, 204, 0.4),rgba(153,153,153,0.4));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CCC',endColorstr='#999');
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  -moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.transparent {
+        filter:alpha(opacity=25);
+        -moz-opacity:0.25;
+        -khtml-opacity: 0.25;
+        opacity: 0.25;
+}
+
+body .container{
+  position: relative;
+  height: 100%;
+}
+
+#headerbg{background-color:#CCCCCC;border-bottom:1px solid #333333;height:30px;width:100%;margin-bottom:-31px;}
+
+header{height:30px;position:relative;width:100%;margin-bottom:15px;}
+
+header nav{position: absolute;
+top: 0;
+right: 0;
+margin: .5em;}
+
+.user {width:120px;float:left;text-align:center;height:100%;overflow:hidden;font-family: 'Droid Sans Mono';}
+.message{height:100%;float:left;width:600px;font-family: 'Droid Sans';}
+.chattext{width:720px;}
+
+#dragon{position:absolute;bottom:0;right:-250px;z-index:-1;}
+#chats p{font-family: 'Droid Sans Mono';margin: 2px 5px;width: 720px;}
+#chats {width:750px; float: left; margin-bottom: 10px;height:80%; overflow:auto;
+  z-index:10; overflow: hidden;}
+#users {width: 190px; float: right; height: 80%;
+  z-index:10; }
+#users p {margin: 2px 5px;
+overflow: hidden;}
+#formtext{height:1.5em;padding: 0 4px;margin-right: -8px;}
+#chatform{width:750px;}
+#send{margin-left:10px;height:1.7em;}
+
+
+/* Examples - Tiny Scrollbar */
+#scrollbar1 { width: 750px; height: 80%; float:left;}
+#scrollbar1 .viewport { width: 728px; height: 100%; overflow: hidden; position: relative; }
+#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; }
+#scrollbar1 .scrollbar,
+#scrollbar1 .thumb .end,
+#scrollbar1 .thumb { background: transparent url(/images/scrollbar.png) repeat-y; }
+#scrollbar1 .scrollbar { position: relative; background-position: 0 0; float: right; width: 15px; }
+.scrollbar1 .track  { background: transparent url(/images/scrollbar-end.png) no-repeat 0 100%; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { background-position: 100% 100%; height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: 1px; }
+#scrollbar1 .thumb .end { background-position: 100% 0; height: 5px; width: 13px; }
+#scrollbar1 .disable { display: none; }
+
+
+
